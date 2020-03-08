@@ -113,12 +113,23 @@ body {
   border-radius: 5px 5px 0 0;
 }
 
-.Character-item a h2 {
+.Character-item a .info{
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Character-item a .info h2 {
   font-size: 18px;
   font-weight: 300;
   padding: 5px 10px;
   display: flex;
   justify-content: space-between;
+  text-decoration: none;
+  color: black;
+}
+.Character-item a .info h3 {
   text-decoration: none;
   color: black;
 }
