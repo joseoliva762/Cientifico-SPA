@@ -181,4 +181,8 @@ body {
         transform: scale(1.01);
         opacity: 1;
     }
+    .Characters-inner {
+      display: flex;
+      flex-direction: column;
+    }
 }
