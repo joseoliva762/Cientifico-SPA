@@ -16,6 +16,20 @@ body {
   margin-bottom: 20px;
 }
 
+.Header-logo{
+  width: 200px;
+  height: auto;
+}
+
+.Header-logo h1 a img{
+  width: 100%;
+  filter: grayscale(100%) opacity(0.8);
+  transition: 450ms all;
+}
+
+.Header-logo h1 a img:hover{
+  filter: grayscale(0%) opacity(1);
+}
 .Header a {
   text-decoration: none;
   color: #15302C;
@@ -23,7 +37,7 @@ body {
 }
 
 .Header a:hover{
-    color: #1BB4B4;
+    color: #12b0c9;
 }
 
 .Main {

@@ -4,12 +4,12 @@ const Header = () => {
       <div class="Header-logo">
         <h1>
           <a href="/Cientifico-SPA/#">
-            100tifi.co
+            <img src="https://partner.redbubble.com/partnership-portal/client/eab637076b22c782edf0015a0ec3c686.png" alt="100Tifi.co"> 
           </a>
         </h1>
       </div>
       <div class="Header-nav">
-        <a href="#/about/">
+        <a href="https://rickandmortyapi.com/">
           About
         </a>
       </div>
