@@ -33,7 +33,6 @@ module.exports = {
     new CopyWebpackPlugin([{
       from: './src/styles/styles.css',
       to: ''
-
     }])
   ]
 }
