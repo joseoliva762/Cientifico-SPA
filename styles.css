@@ -39,6 +39,7 @@ body {
 
 .Header a:hover{
     color: #12b0c9;
+    text-decoration: underline;
 }
 
 .Main {
@@ -176,6 +177,42 @@ body {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+.Footer-main{
+    font-size: medium;
+    color: black;
+    border-top: 2px solid black;
+    margin-top: 25px;
+
+}
+.Footer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Information{
+  margin: 0px;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.Info-personal{
+  margin-top: 2px;
+  font-size: small;
+  text-align: center;
+}
+
+.Info-personal a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Info-personal a:hover{
+  text-decoration: underline;
 }
 
 @media(max-width: 600px){
