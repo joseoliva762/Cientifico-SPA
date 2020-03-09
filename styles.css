@@ -35,6 +35,7 @@ body {
   text-decoration: none;
   color: #15302C;
   font-weight: bold;
+  outline: none;
 }
 
 .Header a:hover{
@@ -209,6 +210,7 @@ body {
   color: black;
   font-weight: bold;
   text-decoration: none;
+  outline: none;
 }
 
 .Info-personal a:hover{
