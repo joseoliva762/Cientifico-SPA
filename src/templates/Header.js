@@ -9,7 +9,7 @@ const Header = () => {
         </h1>
       </div>
       <div class="Header-nav">
-        <a href="https://rickandmortyapi.com/">
+        <a href="https://rickandmortyapi.com/about">
           About
         </a>
       </div>
